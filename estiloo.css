@@ -1,0 +1,303 @@
+*{
+box-sizing:border-box;
+}
+body{
+font-size:16px;
+font-family: arial,helveltica,sans-serif;
+line-height: 1.4em; 
+background-color: #f7f9fa;
+}
+
+.contenedor{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.encabezado{ 
+background: #0f2537; /* Azul marino muy oscuro y elegante */
+overflow: hidden;
+}
+.logo{
+    float: left;
+   position: relative;
+    top: 15px; 
+}
+.encabezado nav{ 
+float: right; 
+}
+.encabezado nav ul{ 
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.encabezado nav ul li{ 
+display: inline-block;
+margin-right: -4px;
+}
+.encabezado nav ul li a{ 
+display: block;
+color: #fff;
+padding: 28px;
+border-left: 1px solid #1c3d5a;
+text-decoration: none;
+}
+/*cambio de color*/
+.encabezado nav ul li a:hover{ 
+background: #1c3d5a; /* Azul intermedio al pasar el cursor */
+}
+/*------------------------------------
+PRESENTACION
+-------------------------------------*/ 
+.presentacion{
+  background: radial-gradient(280px at 25% 10%, #2b6cb0, #0f2537); /* Degradado de agua profunda a oscuro */
+  overflow: hidden;
+  border-bottom: 3px solid #0b1b28; 
+}  
+.introduccion-presentacion{
+    float: left;
+}
+.introduccion-presentacion h1{
+    color: #fff;
+    font-size: 2.625em;  
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+   line-height: 0.7em; 
+} 
+.introduccion-presentacion h1 span{
+    color: #90cdf4; /* Texto secundario en azul celeste claro */
+    font-size: 0.38em; 
+}
+/*------------aprender------------mas*/
+a.aprender-mas{
+    font-size: 2.1875em;
+    border: 1px solid #dd6b20;
+    padding: 30px 50px;
+    display: block;
+    text-align: center;
+    margin: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    border-radius: 10px;
+    background: linear-gradient(to top, #ed8936, #dd6b20); /* Botón naranja/ámbar en contraste */
+    box-shadow: 0 8px 0 0 #c05621,
+                0 0 25px 5px rgba(255,255,255,0.15);
+} 
+a.aprender-mas:hover{
+    box-shadow: 0 0 25px 5px #000;
+}
+.presentacion img{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+/*****************************************************************
+/*------------Acceso-rapido------------*/
+.acceso-rapido{
+    background: #3182ce; /* Azul brillante e hidro-tecnológico */
+    overflow: hidden;
+    border-bottom: 3px solid #fff;
+}
+.acceso-rapido h2 {
+    color: #fff;
+    font-size: 1.87em;
+    text-shadow: 1px 1px 0 #000;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 16px;
+}
+.acceso-rapido figure{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    margin: 0 -4px 0 0;
+    padding: 0px;
+}
+.acceso-rapido h3{
+   font-size: 1.1875em;
+    margin-top: 9px;
+    margin-bottom: 20px; 
+}
+.acceso-rapido h3 a{
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+    font-weight: normal;
+}
+.acceso-rapido h3 a:hover{
+    text-decoration: none;
+    color: #90cdf4;
+}
+/*---------bloque contenido----------*/
+.bloque-contenido{
+    overflow: hidden; 
+    margin-top: 25px; 
+}
+.bloque-contenido .contenedor{  
+    display: table;  
+}
+.articulos { 
+    background: #ffffff; /* Fondo blanco limpio e impecable */
+    width: 65%; 
+  display: table-cell;  
+  padding-right: 30px; 
+}
+.articulos article{  
+    margin-bottom: 10px;
+}
+.articulos h2{  
+    color: #0f2537;
+    font-size: 1.625em;
+    border-bottom: 3px solid #3182ce;
+    padding-bottom: 25px;
+}
+.articulos img{  
+    float: left;
+    margin-right: 10px;
+    position: relative; 
+    top: 5px;           
+}
+.articulos article h1{  
+    font-size: 1.25em;  
+    margin: 8px 0 8px 0;  
+}
+.articulos article h1 a{  
+    color: #2d3748;  
+    text-decoration: none;
+}
+.articulos article h1 a:hover{  
+    text-decoration: underline;
+    color: #3182ce;
+}
+.articulos article p{  
+    margin: 0;
+    text-align: justify;
+    font-size: 0.875em; 
+    color: #4a5568;
+}
+.complementary, .complementario{    
+    background: #ebf8ff; /* Fondo celeste muy suave para la barra lateral */
+    width: 35%; 
+    display: table-cell; 
+    padding: 20px; 
+    border-left: 4px solid #3182ce;
+}
+.complementario h2{   
+    font-size: 1.625em;   
+    color: #2b6cb0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+}
+.complementario ul{   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.complementario ul li{ 
+    background: url("imagen/icon.png") no-repeat left center;
+    padding-left: 24px;
+    margin-bottom: 12px;
+}
+.complementario ul li a{ 
+    color: #2d3748;
+    text-decoration: none;
+}
+.complementario ul li a:hover{ 
+    color: #dd6b20; /* Destaque naranja al pasar el mouse */
+    text-decoration: underline; 
+}
+/***********************************************************************/
+/************** suscripcion */
+.suscripcion{  
+    overflow: hidden;
+    background: #0f2537;   /* Cohesión estética con el encabezado */
+    margin-top: 20px;  
+    padding: 15px 20px;
+}
+.suscripcion h2{ 
+    float: left;
+    font-size: 1.625em; 
+    color: #ffffff;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.suscripcion form{  
+    float: right;
+    position: relative; 
+    top: 10px;   
+}
+.suscripcion form input{   
+    border: 1px solid #cbd5e0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.suscripcion form input[type="submit"]{ 
+    border: 1px solid #c05621;
+    padding: 10px 20px;
+    background: #ed8936;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.suscripcion form input[type="submit"]:hover{ 
+    background: #dd6b20;
+}
+/***********pie de pagina**************/
+.piedepagina{   
+    background: #1a202c; /* Gris grafito oscuro */
+    padding: 20px 0; 
+}
+.piedepagina .contenedor{   
+    display: table;
+}
+.piedepagina small{  
+    display: table-cell;
+    color: #a0aec0;  
+    vertical-align: middle;
+}
+.piedepagina nav{ 
+    display: table-cell;
+    text-align: right; 
+    vertical-align: middle;
+}
+.piedepagina nav ul{ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.piedepagina nav ul li{ 
+    display: inline-block;
+    padding-left: 15px;  
+}
+.piedepagina nav ul li a{ 
+    color: #a0aec0;
+    text-decoration: none;
+}
+.piedepagina nav ul li a:hover{ 
+    color: #ffffff;
+    text-decoration: underline;
+}
+/*************Redes sociales***************/
+.social{
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 999;
+}
+.social a{
+    display: block;
+    margin-bottom: 4px;
+    opacity: 0.8;
+}
+.social a:hover{
+    opacity: 1;
+}
+.social img{
+    border-radius: 50%;
+    display: block;
+}

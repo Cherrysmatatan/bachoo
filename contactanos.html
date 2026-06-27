@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+	<meta charset="UTF-8">
+	<title>Contáctanos - Proyecto Final</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+ <header class="encabezado" role="banner">
+ 	<div class="contenedor">
+ 		<a href="https://www.ventas@chapomart.com.mx" class="logo">
+ 			<img src="imagen/logo_castor.jpg" width="100" height="100" alt="logotipo de la tienda">
+ 		</a>
+ 		<nav role="navigation">
+ 			<ul>
+ 				<li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+ 				<li><a href="index.html">Inicio</a></li>
+ 				<li><a href="contactanos.html">Contáctanos</a></li>
+ 			</ul>
+ 		</nav>
+ 	</div>
+ </header>
+
+ <div class="presentacion">
+ 	<div class="contenedor">
+ 		<div class="introduccion-presentacion">
+ 			<h1>PONTE EN CONTACTO <br><span>Tu voz es vital para el proyecto</span></h1>
+ 		</div>
+ 	</div>
+ </div> 
+
+ <div class="bloque-contenido">
+ 	<div class="contenedor">
+ 		<main class="articulos" role="main">
+ 			<h2>Formulario de Contacto</h2>
+ 			
+            <article>
+ 				<h1>Escríbenos tus dudas o propuestas</h1>
+ 				<p>Si formas parte de una institución educativa, eres dueño de tierras en una región de humedales, o simplemente deseas sumarte como voluntario estudiantil en nuestras brigadas, completa el siguiente formulario. Nos comunicaremos contigo a la brevedad para coordinar esfuerzos.</p>
+ 				
+                <!-- Reutilizamos las clases del formulario que tienes en tu archivo CSS -->
+                <section class="suscripcion" style="border: none; margin-top: 30px; padding: 20px 0;">
+                    <form action="https://formspree.io/f/mwvdoepg" method="POST" style="float: left; width: 100%; position: static;">
+                        <div style="margin-bottom: 15px;">
+                            <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #444;">Nombre completo:</label>
+                            <input type="text" name="nombre" placeholder="Ingresa tu nombre..." required style="width: 100%; box-sizing: border-box;">
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #444;">Correo electrónico:</label>
+                            <input type="email" name="email" placeholder="Ingresa tu correo..." required style="width: 100%; box-sizing: border-box;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #444;">Asunto o Mensaje:</label>
+                            <!-- El input estilizado de tu CSS funciona excelente aquí -->
+                            <input type="text" name="mensaje" placeholder="¿En qué podemos ayudarte?..." required style="width: 100%; box-sizing: border-box; padding-bottom: 40px;">
+                        </div>
+                        <input type="submit" name="valor" value="Enviar Mensaje" style="float: left; cursor: pointer;">
+                    </form>
+                </section>
+ 			</article>
+ 		</main>
+    
+     </div>
+ 	</div> 
+
+<footer class="piedepagina" role="contentinfo">
+    <div class="contenedor">
+        <small>Copyright @ 2026 no a la extincion de castores</small>
+        <nav>
+            <ul>
+                <li><a href="condiciones.html">Politicas del sitio</a></li>
+                <li><a href="https://www.castor.wild-europe.com/2020/12/11/el-manual-faq-que-aclara-preguntas-frecuentes-sobre-el-castor/">Preguntas frecuentes</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<div class="social">
+    <a href="https://www.facebook.com/ProfepaOficial" title="FaceBook"><img src="imagen/face.jpg" alt="facebook"></a>
+    <a href="https://youtu.be/LC5nTBbRd_8?si=HqT2cog1BunFvmR1" title="Youtube"><img src="imagen/you.jpg" alt="youtube"></a>
+    <a href="https://x.com/PROFEPA_Mx/photo" title="x"><img src="imagen/x.png" width="60" height="60" alt="x"></a>
+</div>
+</body>
+</html>
